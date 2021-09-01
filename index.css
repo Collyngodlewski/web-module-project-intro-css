@@ -40,7 +40,8 @@ blockquote, q {
     padding: 0;
     margin:0;
     max-width: 100%;
-    border:1px solid grey; /*makes things easier to see*/
+    /* border:1px solid grey; */
+     /*makes things easier to see*/
 }
 
 /* General styles*/
@@ -68,9 +69,9 @@ a{
 span{
     font-weight:bold;
 }
-section{
-    padding:4% 0;
-}
+/* section{
+    padding:4 0;
+} */
 
 /*header section styles */
 
@@ -121,11 +122,90 @@ nav a{
 .right{
     width:55%;
     margin-left: 5%;
+    
 }
 
 .right div{
-    position:aboslute;
-    top:40%;
+    position:absolute;
+    top:10%;
+    margin-right: 5%;
+    
+   
+    
 }
 
-/*test test */
+.right h1{
+    font-size: 9rem;
+
+}
+
+
+.right h2{
+    width: 100%;
+    font-size: 3rem;
+    margin-top: 10%
+}
+.right p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    margin-top: 10%;
+}
+
+
+
+
+/* Main Section Styles */
+
+.main div{
+    margin: 0 5%;
+    background-color: #DDB9A3;
+    padding: 1.5%;
+    font-size: 2.5rem;
+
+    text-align: center;
+    color: white;
+}
+
+.small-images{
+    text-align:center;
+    margin: 2% 20%;
+}
+
+.campfire p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.campfire img{
+    width: 40%;
+}
+
+.camper p{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    font-size: 2.5rem;
+
+}
+
+.camper img{
+    width: 40%;
+    margin: 0;
+}
+
+/* footer */
+
+.bottom-image img{
+    width: 100%;
+    object-fit: fill;
+   
+}
+
+footer{
+   
+    background-color:#F9E7DC;
+    
+}
+
